@@ -10,10 +10,12 @@
         android:id="@+id/fabNuevo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:clickable="true"
-        app:srcCompat="@android:drawable/ic_input_add"
-        tools:layout_editor_absoluteX="338dp"
-        tools:layout_editor_absoluteY="666dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_input_add" />
 
     <ListView
         android:id="@+id/lvTareas"
