@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         val fabNuevo : FloatingActionButton = findViewById(R.id.fabNuevo)
 
         fabNuevo.setOnClickListener {
-        alerta.show()
+        configurarAlertaTarea()
         }
     }
 
@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         agregarTarea(etTarea.text.toString())
         }
 
-        alerta.create()
+        alerta.create().show()
     }
 
     private fun agregarTarea(tarea: String) {
