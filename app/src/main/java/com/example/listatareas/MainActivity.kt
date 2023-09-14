@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+
     private fun configurarAlertaTarea() {
          alerta = AlertDialog.Builder(this) //permite configurar las caracterrísticas del alert
 
